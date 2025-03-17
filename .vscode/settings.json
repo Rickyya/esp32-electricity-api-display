@@ -1,0 +1,39 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPath": "/home/rickyf/esp/v5.3/esp-idf",
+    "idf.pythonInstallPath": "/usr/bin/python3",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.port": "/dev/ttyUSB0",
+    "idf.toolsPath": "/home/rickyf/.espressif",
+    "cpplint.filters": [
+        "-whitespace/line_length",
+        "-legal/copyright",
+        "-build/include_subdir",
+        "-readability/casting"
+    ],
+    "files.associations": {
+        "esp_event.h": "c",
+        "esp_crt_bundle.h": "c",
+        "queue.h": "c",
+        "font8x8_basic.h": "c",
+        "projdefs.h": "c",
+        "gpio.h": "c",
+        "display_controller.h": "c",
+        "iot_button.h": "c",
+        "array": "c",
+        "charconv": "c",
+        "compare": "c",
+        "complex": "c",
+        "functional": "c",
+        "ratio": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "variant": "c",
+        "gpio_viewer.h": "c",
+        "api_controller.h": "c"
+    },
+    "idf.flashType": "UART",
+}
