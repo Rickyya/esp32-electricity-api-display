@@ -58,7 +58,7 @@ void displayThreePrices(PriceEntry *startingFrom) {
     }
     const char *label = getDayLabelFromIso(dates[0]);
     char header[17];
-    snprintf(header, sizeof(header), "  Prices %s", label);
+    snprintf(header, sizeof(header), "  Prices %-7.7s", label);
     ssd1306_display_text(&display, 0, header, 16, true);
     ssd1306_display_text(&display, 2, "   h      c/kWh ", 16, true);
     int max_display = count > 3 ? 3 : count;
