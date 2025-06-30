@@ -26,7 +26,7 @@ dependencies:
   idf:
     source:
       type: idf
-    version: 5.3.0
+    version: 5.4.2
   parabuzzle/http_rest_client:
     component_hash: e5235176e536c6b552ddcad0547bcff11aee81cef25e18ede92221f1a0451068
     dependencies: []
