@@ -1,9 +1,7 @@
-#ifndef MAIN_INTERNAL_DISPLAY_CONTROLLER_H_
-#define MAIN_INTERNAL_DISPLAY_CONTROLLER_H_
-#include <stdio.h>
-#include <string.h>
+#ifndef COMPONENTS_DISPLAY_CONTROLLER_INCLUDE_DISPLAY_CONTROLLER_H_
+#define COMPONENTS_DISPLAY_CONTROLLER_INCLUDE_DISPLAY_CONTROLLER_H_
 
-#include "api_controller.h"
+#include "ssd1306.h"
 
 esp_err_t initDisplay(SSD1306_t *display);
 
@@ -20,4 +18,4 @@ void resetDisplayCallback(TimerHandle_t xTimer);
  */
 void displayThreePrices(PriceEntry *startingFrom);
 
-#endif  // MAIN_INTERNAL_DISPLAY_CONTROLLER_H_
+#endif  // COMPONENTS_DISPLAY_CONTROLLER_INCLUDE_DISPLAY_CONTROLLER_H_

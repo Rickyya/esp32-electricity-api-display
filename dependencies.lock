@@ -38,6 +38,6 @@ direct_dependencies:
 - espressif/button
 - idf
 - parabuzzle/http_rest_client
-manifest_hash: 96453a39d3c39fbdbe21fb2435b8f0e24b6f8961e2788ae647a60b9bb3d1a7b0
+manifest_hash: e9967eed20a029a84016f7c9e820530f55c6fcfb0d87e1856c8be74fe00ed83e
 target: esp32
 version: 2.0.0

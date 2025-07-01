@@ -1,5 +1,5 @@
-#ifndef MAIN_INTERNAL_TIME_DATE_H_
-#define MAIN_INTERNAL_TIME_DATE_H_
+#ifndef COMPONENTS_TIME_UTILS_INCLUDE_TIME_UTILS_H_
+#define COMPONENTS_TIME_UTILS_INCLUDE_TIME_UTILS_H_
 
 esp_err_t initTime();
 /**
@@ -29,4 +29,4 @@ bool isMatchingDateAndHour(const char *timestamp);
  * @param timestamp
  */
 const char *getDayLabelFromIso(const char *timestamp);
-#endif  // MAIN_INTERNAL_TIME_DATE_H_
+#endif  // COMPONENTS_TIME_UTILS_INCLUDE_TIME_UTILS_H_

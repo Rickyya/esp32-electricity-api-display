@@ -2,21 +2,13 @@
 #include <string.h>
 
 #include "esp_log.h"
-#include "esp_wifi.h"
-#include "esp_http_client.h"
 #include "nvs_flash.h"
-#include "cJSON.h"
-#include "freertos/queue.h"
-#include "esp_sntp.h"
 
-#include "http_rest_json_client.h"
+#include "api_controller.h"
+#include "display_controller.h"
+#include "time_utils.h"
 #include "networking.h"
-#include "ssd1306.h"
-#include "font8x8_basic.h"
-#include "internal/button_controller.h"
-#include "internal/display_controller.h"
-#include "internal/time_date.h"
-#include "internal/api_controller.h"
+#include "button_controller.h"
 
 static const char *TAG = "MAIN";
 /** Wifi */

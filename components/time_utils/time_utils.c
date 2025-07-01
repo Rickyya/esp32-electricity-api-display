@@ -2,10 +2,11 @@
 #include <string.h>
 #include <time.h>
 #include <stdlib.h>
+
 #include "esp_log.h"
 #include "esp_netif_sntp.h"
 
-#include "time_date.h"
+#include "time_utils.h"
 
 esp_err_t initTime() {
     esp_sntp_config_t config = ESP_NETIF_SNTP_DEFAULT_CONFIG("pool.ntp.org");

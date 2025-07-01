@@ -1,8 +1,5 @@
-#ifndef MAIN_INTERNAL_API_CONTROLLER_H_
-#define MAIN_INTERNAL_API_CONTROLLER_H_
-
-#include "ssd1306.h"
-#include "cJSON.h"
+#ifndef COMPONENTS_API_CONTROLLER_INCLUDE_API_CONTROLLER_H_
+#define COMPONENTS_API_CONTROLLER_INCLUDE_API_CONTROLLER_H_
 
 #define MAX_PRICE_ENTRIES 48
 
@@ -31,4 +28,4 @@ PriceEntry* getCurrentTimePriceEntry(DataArray *data);
  */
 int getIndexOfEntry(DataArray* data, PriceEntry* entry);
 
-#endif  // MAIN_INTERNAL_API_CONTROLLER_H_
+#endif  // COMPONENTS_API_CONTROLLER_INCLUDE_API_CONTROLLER_H_

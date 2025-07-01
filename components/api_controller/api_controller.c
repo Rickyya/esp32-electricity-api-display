@@ -1,11 +1,11 @@
-#include "http_rest_json_client.h"
 #include "esp_log.h"
-#include "freertos/queue.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
 #include "cJSON.h"
 
+#include "http_rest_json_client.h"
+#include "time_utils.h"
 #include "api_controller.h"
-#include "display_controller.h"
-#include "time_date.h"
 
 extern SemaphoreHandle_t xDataSemaphore;
 extern DataArray data;
@@ -80,3 +80,4 @@ int getIndexOfEntry(DataArray* data, PriceEntry* entry) {
     }
     return -1;
 }
+
